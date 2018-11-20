@@ -105,7 +105,7 @@ Connect to spark shell
 ```
 $ spark-shell
 ```
-Provide the gs:// path to a json file stored in google cloud storage.
+Reading file stored on cloud storage. Provide the gs:// path to a json file stored in google cloud storage.
 ```
 val src=sqlContext.read.json("gs://bucket-name/some_sample.json")
 ```
