@@ -6,7 +6,7 @@ Aim of this repository/document is to create cloudera parcel with GCS connector 
 
 ```sh
 $ #git clone project_path
-$ gcloud source repos clone gcs-connector-parcel --project=roderickyao-sandbox-free
+$ gcloud source repos clone gcs-connector-parcel --project=project_name
 ```
 # Prerequisites
 1. Download create_parcel.sh file from here(add link) [* if not cloned already]
