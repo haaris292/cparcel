@@ -73,6 +73,8 @@ Example :
 
 **fs.gs.impl** : com.google.cloud.hadoop.fs.gcs.GoogleHadoopFileSystem
 
+![alt text](https://github.com/haaris292/cparcel/blob/master/Screen%20Shot%202018-10-04%20at%209.56.59%20PM.png)
+
 
 Save configurations > Restart required services.
 
