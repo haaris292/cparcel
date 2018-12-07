@@ -13,7 +13,7 @@ Once you have the required files, put all the files under one directory and run 
 Here is an example on how to run the script
 ```
 $ chmod u+x create_parcel.sh
-$ ./create_parcel.sh -f parcel_name -v version -o operating_system -d 
+$ ./create_parcel.sh -f parcel_name -v version -o operating_system -d true
 ```
 
 ```markdown
@@ -29,9 +29,9 @@ Where,
 ```
 Example
 ------
-We can name this parcel as “gcsconnector”, version as “1.0.0”, and os type rhel6, run the below command.
+We can name this parcel as “gcsconnector”, version as “1.0.0”, os type rhel6, and deployment on Cloudera manager as true and run the below command.
 ```
-$ ./create_parcel.sh -f gcsconnector -v 1.0.0 -o el6 -d
+$ ./create_parcel.sh -f gcsconnector -v 1.0.0 -o el6 -d true
 ```
 
 ## Deployment
