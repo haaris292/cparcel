@@ -50,15 +50,15 @@ From the Cloudera Manager console go to **HDFS service** > **Configurations** > 
 
 Add the following properties in the Cluster-wide Advanced Configuration Snippet (Safety Valve) for **core-site.xml** 
 ```
-**google.cloud.auth.service.account.enable** : true
+google.cloud.auth.service.account.enable : true
 
-**[Optional] google.cloud.auth.service.account.json.keyfile** : Full path to JSON key file downloaded for service account
+[Optional] google.cloud.auth.service.account.json.keyfile : Full path to JSON key file downloaded for service account
 Example : 
 /opt/cloudera/parcels/gcsconnector/lib/hadoop/lib/key.json
 
-**fs.gs.project.id** : GCP_project_ID
+fs.gs.project.id : GCP_project_ID
 
-**fs.gs.impl** : com.google.cloud.hadoop.fs.gcs.GoogleHadoopFileSystem
+fs.gs.impl : com.google.cloud.hadoop.fs.gcs.GoogleHadoopFileSystem
 ```
 ![alt text](https://github.com/GoogleCloudPlatform/professional-services/blob/master/tools/cloudera-parcel-gcsconnector/images/screenshot-hdfs-config.png)
 
