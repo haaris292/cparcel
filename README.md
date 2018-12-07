@@ -4,6 +4,7 @@ This script helps you create a Cloudera parcel that includes GCS connector. The 
 
 ## Prerequisites
 1. Download create_parcel.sh script file.
+[`[TOC]` documentation](https://github.com/haaris292/cparcel/blob/master/create_parcel.sh).
 2. [Optional] If you want the script to deploy the parcel file under Cloudera Manager's parcel repo directly, you need to use the script on the Cloudera Manager server.
 3. [Optional] For on-premise clusters or clusters on other cloud providers, you need to get the service account JSON key from your GCP account. You can follow steps from [this document](https://cloud.google.com/iam/docs/creating-managing-service-account-keys).
 
