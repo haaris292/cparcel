@@ -83,7 +83,7 @@ Add below configuration according to the gcs connector jar path.
 
 **SPARK_DIST_CLASSPATH**=$SPARK_DIST_CLASSPATH:/opt/cloudera/parcels/gcsconnector/lib/hadoop/lib/gcs-connector-latest-hadoop2.jar
 
-![alt text](images/screenshot-spark-config.png)
+![alt text](https://github.com/GoogleCloudPlatform/professional-services/blob/master/tools/cloudera-parcel-gcsconnector/images/screenshot-spark-config.png)
 
 Validate Spark connection with GCS by opening Spark shell:
 
