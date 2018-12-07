@@ -78,7 +78,7 @@ Run the 'hdfs dfs -ls' command to access GCS bucket:
 hdfs dfs -ls gs://bucket_name
 ```
 
-### Spark Service
+### Spark service
 From the Cloudera Manager console, go to **Spark** > **Configurations** > Spark Service Advanced Configuration Snippet (Safety Valve) for spark-conf/spark-env.sh
 
 Add below configuration according to the gcs connector jar path.
@@ -99,12 +99,13 @@ val src=sqlContext.read.json("gs://bucket-name/some_sample.json")
 
 ![alt text](https://github.com/GoogleCloudPlatform/professional-services/blob/master/tools/cloudera-parcel-gcsconnector/images/screenshot-spark-validate.png)
 
-### Hive Service
+### Hive service
 From the Cloudera Manager console, go to **Hive Service** > **Configuration** > **Hive Auxiliary JARs Directory**. Set the value to /opt/cloudera/parcels/gcsconnector/lib/hadoop/lib/
 (absolute directory to the GCS connector)
 
 ![alt text](https://github.com/GoogleCloudPlatform/professional-services/blob/master/tools/cloudera-parcel-gcsconnector/images/screenshot-hive-config.png)
 
+#### Validate Hive service
 Validate if JAR is being accepted by opening beeline and connecting to HiveServer2:
 
 ![alt text](https://github.com/GoogleCloudPlatform/professional-services/blob/master/tools/cloudera-parcel-gcsconnector/images/screenshot-hive-validate.png)
