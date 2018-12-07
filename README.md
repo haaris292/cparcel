@@ -56,7 +56,7 @@ Add the following properties in the Cluster-wide Advanced Configuration Snippet 
 Example : 
 /opt/cloudera/parcels/gcsconnector/lib/hadoop/lib/key.json
 
-**fs.gs.project.ids** : GCP_project_ID
+**fs.gs.project.id** : GCP_project_ID
 
 **fs.gs.impl** : com.google.cloud.hadoop.fs.gcs.GoogleHadoopFileSystem
 
