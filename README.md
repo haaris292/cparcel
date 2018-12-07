@@ -95,14 +95,14 @@ Read file stored on Cloud Storage by providing the gs:// path of a JSON file sto
 val src=sqlContext.read.json("gs://bucket-name/some_sample.json")
 ```
 
-![alt text](images/screenshot-spark-validate.png)
+![alt text](https://github.com/GoogleCloudPlatform/professional-services/blob/master/tools/cloudera-parcel-gcsconnector/images/screenshot-spark-validate.png)
 
 ### Hive Service
 From the Cloudera Manager console, go to **Hive Service** > **Configuration** > **Hive Auxiliary JARs Directory**. Set the value to /opt/cloudera/parcels/gcsconnector/lib/hadoop/lib/
 (absolute directory to the GCS connector)
 
-![alt text](images/screenshot-hive-config.png)
+![alt text](https://github.com/GoogleCloudPlatform/professional-services/blob/master/tools/cloudera-parcel-gcsconnector/images/screenshot-hive-config.png)
 
 Validate if JAR is being accepted by opening beeline and connecting to HiveServer2:
 
-![alt text](images/screenshot-hive-validate.png)
+![alt text](https://github.com/GoogleCloudPlatform/professional-services/blob/master/tools/cloudera-parcel-gcsconnector/images/screenshot-hive-validate.png)
