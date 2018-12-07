@@ -39,9 +39,9 @@ Click **Distribute** > **Activate parcel**. This will distribute and activate th
 
 Once activated successfully, **restart** all the stale services.
 
-Check below path for:
+Check below path for,
 script logs:
-/home/$user/parcel-logs
+/home/$user/parcel-logs 
 Cloudera parcel logs:
 /var/log/cloudera-scm-server
 
