@@ -20,8 +20,10 @@ $ ./create_parcel.sh -f parcel_name -v version -o operating_system -d true
 Where,
 -f: name of the parcel in a single string format without any spaces or special characters.
 -v: version of the parcel in the format x.x.x (ex: 1.0.0)
--o: name of the operating system distribution to be chosen from this list (rhel5, rhel6, rhel7, suse11, ubuntu10, ubuntu12, ubuntu14, debian6, debian7)
--d: flag is to be used if you want to deploy the parcel to the Cloudera manager parcel repo folder, this flag is optional and if not provided then the parcel file will be created in the same directory where script run.
+-o: name of the operating system distribution to be chosen from this list (rhel5, rhel6, rhel7, suse11, 
+ubuntu10, ubuntu12, ubuntu14, debian6, debian7)
+-d: flag is to be used if you want to deploy the parcel to the Cloudera manager parcel repo folder, 
+this flag is optional and if not provided then the parcel file will be created in the same directory where script run.
 
 ```
 Example
