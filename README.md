@@ -37,8 +37,6 @@ Once the script runs successfully, you need to make sure that Cloudera Manager c
 You can check the parcel from Cloudera Manager Home page, click the **Hosts** > **Parcels** > **Check parcels**. Once the new parcel populates in the list of parcels.
 Click **Distribute** > **Activate parcel**. This will distribute and activate the parcel on all Cloudera managed hosts.
 
-![alt text](https://github.com/haaris292/cparcel/blob/master/Screen%20Shot%202018-12-07%20at%203.17.12%20PM.png)
-
 ![alt text](https://github.com/haaris292/cparcel/blob/master/parcelpage.png)
 
 Once activated successfully, **restart** all the stale services.
