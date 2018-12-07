@@ -73,7 +73,7 @@ Save configurations and **restart** required services.
 Export Java and Hadoop classpath pointing to the gcsconnector jar.
 ```
 $ export JAVA_HOME=/usr/lib/jvm/jre-1.8.0-openjdk.x86_64/
-$ export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:/opt/cloudera/parcels/gcsconnector-1.0.0/lib/hadoop/lib/gcs-connector-latest-hadoop2.jar
+$ export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:/opt/cloudera/parcels/GCSCONNECTOR/lib/hadoop/lib/gcs-connector-hadoop2-latest.jar
 ```
 
 Run the 'hdfs dfs -ls' command to access GCS bucket:
@@ -86,7 +86,7 @@ From the Cloudera Manager console, go to **Spark** > **Configurations** > Spark 
 
 Add below configuration according to the gcs connector jar path.
 
-**SPARK_DIST_CLASSPATH**=$SPARK_DIST_CLASSPATH:/opt/cloudera/parcels/gcsconnector/lib/hadoop/lib/gcs-connector-latest-hadoop2.jar
+**SPARK_DIST_CLASSPATH**=$SPARK_DIST_CLASSPATH:/opt/cloudera/parcels/GCSCONNECTOR/lib/hadoop/lib/gcs-connector-hadoop2-latest.jar
 
 ![alt text](https://github.com/GoogleCloudPlatform/professional-services/blob/master/tools/cloudera-parcel-gcsconnector/images/screenshot-spark-config.png)
 
