@@ -39,11 +39,8 @@ Click **Distribute** > **Activate parcel**. This will distribute and activate th
 
 Once activated successfully, **restart** all the stale services.
 
-Check below path for,
-script logs:
-/home/$user/parcel-logs 
-Cloudera parcel logs:
-/var/log/cloudera-scm-server
+For script logs check : /home/$user/parcel-logs.
+For cloudera parcel logs : /var/log/cloudera-scm-server.
 
 
 ## Configure CDH services to use GCS connector
