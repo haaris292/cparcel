@@ -8,7 +8,7 @@ This script helps you create a Cloudera parcel that includes GCS connector. The 
 3. [Optional] For on-premise clusters or clusters on other cloud providers, you need to get the service account JSON key from your GCP account. You can follow steps from [this document](https://cloud.google.com/iam/docs/creating-managing-service-account-keys).
 
 ## Installation
-Once you have the required files, put all the files under one directory and run create_parcel.sh script in below format.
+Once you have the create_parcel.sh file, place it under user's home directory and run the script in below format.
 
 Here is an example on how to run the script
 ```
@@ -37,6 +37,10 @@ Once the script runs successfully, you need to make sure that Cloudera Manager c
 You can check the parcel from Cloudera Manager Home page, click the **Hosts** > **Parcels** > **Check parcels**. Once the new parcel populates in the list of parcels.
 Click **Distribute** > **Activate parcel**. This will distribute and activate the parcel on all Cloudera managed hosts.
 
+![alt text](https://github.com/haaris292/cparcel/blob/master/Screen%20Shot%202018-12-07%20at%203.17.12%20PM.png)
+
+![alt text](https://github.com/haaris292/cparcel/blob/master/parcelpage.png)
+
 Once activated successfully, **restart** all the stale services.
 
 For script logs check : /home/$user/parcel-logs/.
@@ -60,7 +64,7 @@ fs.gs.project.id : GCP_project_ID
 
 fs.gs.impl : com.google.cloud.hadoop.fs.gcs.GoogleHadoopFileSystem
 ```
-![alt text](https://github.com/GoogleCloudPlatform/professional-services/blob/master/tools/cloudera-parcel-gcsconnector/images/screenshot-hdfs-config.png)
+![alt text](https://github.com/haaris292/cparcel/blob/master/hdfs-config.png)
 
 Save configurations and **restart** required services.
 
