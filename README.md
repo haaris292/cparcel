@@ -34,13 +34,16 @@ $ ./create_parcel.sh -f gcsconnector -v 1.0.0 -o el6 -d true
 ## Deployment
 Once the script runs successfully, you need to make sure that Cloudera Manager can find the new parcel, especially if you host the parcel file by yourself. 
  
-You can check the parcel by go to the Cloudera Manager Home page, click the **Hosts** > **Parcels** > **Check parcels**. Once the new parcel populates in the list of parcels.
+You can check the parcel from Cloudera Manager Home page, click the **Hosts** > **Parcels** > **Check parcels**. Once the new parcel populates in the list of parcels.
 Click **Distribute** > **Activate parcel**. This will distribute and activate the parcel on all Cloudera managed hosts.
 
 Once activated successfully, **restart** all the stale services.
 
-Check below path for logs:
-/var/log/build_script.log
+Check below path for:
+script logs:
+/home/$user/parcel-logs
+Cloudera parcel logs:
+/var/log/cloudera-scm-server
 
 
 ## Configure CDH services to use GCS connector
