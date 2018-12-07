@@ -49,7 +49,7 @@ For cloudera parcel logs : /var/log/cloudera-scm-server/.
 From the Cloudera Manager console go to **HDFS service** > **Configurations** > **core-site.xml** 
 
 Add the following properties in the Cluster-wide Advanced Configuration Snippet (Safety Valve) for **core-site.xml** 
-
+```
 **google.cloud.auth.service.account.enable** : true
 
 **[Optional] google.cloud.auth.service.account.json.keyfile** : Full path to JSON key file downloaded for service account
@@ -59,7 +59,7 @@ Example :
 **fs.gs.project.id** : GCP_project_ID
 
 **fs.gs.impl** : com.google.cloud.hadoop.fs.gcs.GoogleHadoopFileSystem
-
+```
 ![alt text](https://github.com/GoogleCloudPlatform/professional-services/blob/master/tools/cloudera-parcel-gcsconnector/images/screenshot-hdfs-config.png)
 
 Save configurations and **restart** required services.
