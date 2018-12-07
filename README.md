@@ -85,8 +85,8 @@ Add below configuration according to the gcs connector jar path.
 
 ![alt text](https://github.com/GoogleCloudPlatform/professional-services/blob/master/tools/cloudera-parcel-gcsconnector/images/screenshot-spark-config.png)
 
-Validate Spark connection with GCS by opening Spark shell:
-
+#### Validate Spark connection with GCS
+Open Spark shell
 ```
 $ spark-shell
 ```
