@@ -56,13 +56,13 @@ Add the following properties in the Cluster-wide Advanced Configuration Snippet 
 Example : 
 /opt/cloudera/parcels/gcsconnector/lib/hadoop/lib/key.json
 
-**fs.gs.project.ids** : GCP project ID
+**fs.gs.project.ids** : GCP_project_ID
 
 **fs.gs.impl** : com.google.cloud.hadoop.fs.gcs.GoogleHadoopFileSystem
 
 ![alt text](images/screenshot-hdfs-config.png)
 
-Save configurations and restart required services.
+Save configurations and **restart** required services.
 
 #### Validate HDFS service
 Export Java and Hadoop classpath pointing to the gcsconnector jar.
