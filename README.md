@@ -16,6 +16,7 @@ $ chmod u+x create_parcel.sh
 $ ./create_parcel.sh -f parcel_name -v version -o operating_system -d 
 ```
 
+```markdown
 Where,
 -f is for parcel_name : is name of the parcel in a single string format without any spaces or special characters.
 
@@ -25,6 +26,7 @@ Where,
 
 -d is to be used if you want to deploy the parcel to the cloudera manager parcel repo folder, this flag is optional and if not provided then the parcel file will be created in the same directory where create_parcel.sh is script run.
 
+```
 Example
 ------
 We can name this parcel as “gcsconnector”, version as “1.0.0”, and os type rhel6, run the below command.
