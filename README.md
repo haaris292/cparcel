@@ -60,7 +60,7 @@ Example :
 
 **fs.gs.impl** : com.google.cloud.hadoop.fs.gcs.GoogleHadoopFileSystem
 
-![alt text](images/screenshot-hdfs-config.png)
+![alt text](https://github.com/GoogleCloudPlatform/professional-services/blob/master/tools/cloudera-parcel-gcsconnector/images/screenshot-hdfs-config.png)
 
 Save configurations and **restart** required services.
 
