@@ -18,18 +18,15 @@ $ ./create_parcel.sh -f parcel_name -v version -o operating_system -d true
 
 ```markdown
 Where,
--f is for parcel_name : is name of the parcel in a single string format without any spaces or special characters.
-
--v is for version : is the version of the parcel in the format x.x.x (ex: 1.0.0)
-
--o is for operating_system : is the name of the operating system to be chosen from this list (rhel5, rhel6, rhel7, suse11, ubuntu10, ubuntu12, ubuntu14, debian6, debian7)
-
--d is to be used if you want to deploy the parcel to the cloudera manager parcel repo folder, this flag is optional and if not provided then the parcel file will be created in the same directory where create_parcel.sh is script run.
+-f: name of the parcel in a single string format without any spaces or special characters.
+-v: version of the parcel in the format x.x.x (ex: 1.0.0)
+-o: name of the operating system distribution
+-d: flag is to be used if you want to deploy the parcel to the Cloudera manager parcel repo folder, this flag is optional and if not provided then the parcel file will be created in the same directory where script run.
 
 ```
 Example
 ------
-We can name this parcel as “gcsconnector”, version as “1.0.0”, os type rhel6, and deployment on Cloudera manager as true and run the below command.
+We can name this parcel as “gcsconnector”, version as “1.0.0”, os type rhel6, and set the deployment on Cloudera manager as "true" and run the below command.
 ```
 $ ./create_parcel.sh -f gcsconnector -v 1.0.0 -o el6 -d true
 ```
